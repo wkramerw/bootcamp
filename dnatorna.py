@@ -1,9 +1,8 @@
-"""
-Convert dna to RNA
-"""
 
 def rna(seq):
-    """convert a DNA seq to RNA"""
+"""
+Convert dna to RNA. returned strings have the same case as the input seq
+"""
     #determine if input seq is uppercase
     seq_upper = seq.isupper()
     #convert to lovercase
@@ -17,6 +16,10 @@ def rna(seq):
 
 
 def reverse_rna_comp(seq):
+
+"""convert a DNA seq to RNA reverse complement
+returned sequences have the same lettercase as the input
+"""
 
     #upper or lowercase
     seq_upper = seq.isupper()

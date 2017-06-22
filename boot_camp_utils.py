@@ -1,3 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 #settings for plots
 
 colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728',
